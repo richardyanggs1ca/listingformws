@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ListingFormWS</name>
+    </assembly>
+    <members>
+        <member name="T:ListingFormWS.Program">
+            <summary>
+            The main entry point for the ListingFormWS application.
+            </summary>
+        </member>
+        <member name="M:ListingFormWS.Program.Main(System.String[])">
+            <summary>
+            The entry point of the application.
+            </summary>
+            <param name="args">The command-line arguments.</param>
+        </member>
+        <member name="M:ListingFormWS.Program.CreateHostBuilder(System.String[])">
+            <summary>
+            Creates and configures a host builder with the specified arguments.
+            </summary>
+            <param name="args">The command-line arguments.</param>
+            <returns>An initialized IHostBuilder instance.</returns>
+        </member>
+        <member name="T:ListingFormWS.Startup">
+            <summary>
+            Configures services and the application's request pipeline.
+            </summary>
+        </member>
+        <member name="P:ListingFormWS.Startup.Configuration">
+            <summary>
+            Gets the application's configuration settings.
+            </summary>
+        </member>
+        <member name="M:ListingFormWS.Startup.#ctor(Microsoft.Extensions.Configuration.IConfiguration,Microsoft.AspNetCore.Hosting.IWebHostEnvironment)">
+            <summary>
+            Initializes a new instance of the <see cref="T:ListingFormWS.Startup"/> class with the specified configuration and environment.
+            </summary>
+            <param name="configuration">The application's configuration settings.</param>
+            <param name="env">The hosting environment information.</param>
+        </member>
+        <member name="M:ListingFormWS.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            Configures the services for the application.
+            </summary>
+            <param name="services">The collection of service descriptors.</param>
+        </member>
+        <member name="M:ListingFormWS.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment,Microsoft.Extensions.Logging.ILoggerFactory)">
+            <summary>
+            Configures the HTTP request pipeline for the application.
+            </summary>
+            <param name="app">The application builder to configure the request pipeline.</param>
+            <param name="env">The hosting environment information.</param>
+            <param name="loggerFactory">The logger factory to configure logging.</param>
+        </member>
+    </members>
+</doc>
