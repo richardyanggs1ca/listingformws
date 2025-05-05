@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ListingFormWS")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+18001470e869e14675c9a501c56f4d145e3c1d39")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+26074e3e569e5f2c29cb59d8847c8c308a452cd3")]
 [assembly: System.Reflection.AssemblyProductAttribute("ListingFormWS")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ListingFormWS")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
